@@ -107,6 +107,143 @@
                 <input type="submit" value = "Guardar">
             </label>
         </form>
+
+        <form >
+            <h2>
+                Textarea
+            </h2>
+            <label >
+                <textarea placeholder="Escribe una descripción sobre ti " rows="5" cols="4"></textarea>
+            </label>
+                <label >
+                <textarea placeholder="Escribe una descripción sobre ti " rows="5" cols="4" disabled></textarea>
+            </label>
+            <input type="submit" value="Gaurdar">
+            </form>
+
+            <form >
+                <h2>checkboxes</h2>
+                <h3>Lenguaje de preferencia</h3>
+                <label >
+
+                    <input type="checkbox" value ="en">
+                    Ingles
+                </label>
+                <label >
+
+                    <input type="checkbox" value ="es">
+                    Español
+                </label>
+                <label >
+
+                    <input type="checkbox" value ="do">
+                    Dothraki
+                </label>
+            <input type="submit" value="Guardar">
+            </form>
+            <form >
+                <h2>radio buttons</h2>
+                <h3>Selecciona Lenguaje de preferencia</h3>
+                <label >
+
+                    <input type="radio" name = "Language" value ="en">
+                    Ingles
+                </label>
+                <label >
+
+                    <input type="radio" name = "Language"value ="es">
+                    Español
+                </label>
+                <label >
+
+                    <input type="radio" name = "Language" value ="do">
+                    Dothraki
+                </label>
+
+            <input type="submit" value="Guardar">
+            <form >
+                <h2>radio buttons</h2>
+                <h3>Selecciona Lenguaje de preferencia</h3>
+                <label >
+
+                    <input type="radio" name = "Food" value ="en">
+                    Ceviche
+                </label>
+                <label >
+
+                    <input type="radio" name = "Food"value ="es">
+                    Causa
+                </label>
+                <label >
+
+                    <input type="radio" name = "Food" value ="do">
+                    Arroz con Pollo
+                </label>
+
+            <input type="submit" value="Guardar">
+            </form>
+
+            <form >
+                <h2>select</h2>
+                <label>
+                    Comida favorita
+                    <select>
+                        <option value="">Selecciona tu comida favorita</option>
+                        <option value="fr">Francesa</option>
+                        <option value="it">Italiana</option>
+                        <option value="jp">Japonesa</option>
+                        <option value="pe">Peruana</option>
+                        <option value="th">Thailandesa</option>
+                    </select>
+                </label>
+                <label>
+                    Comida favorita
+                    <select multiple>
+                        <option value="">Selecciona tu comida favorita</option>
+                        <option value="fr">Francesa</option>
+                        <option value="it">Italiana</option>
+                        <option value="jp">Japonesa</option>
+                        <option value="pe">Peruana</option>
+                        <option value="th">Thailandesa</option>
+                    </select>
+                </label>
+                 <input type="submit" value="Guardar">
+            </form>
+
+            <form >
+                <h2>
+                    validaciones
+                </h2>
+                <label>
+                    Nombre (obligatorio)
+                    <input type="text" name = "nombre" required minlength="3" maxlength="15" />
+                </label>
+                <label>
+                    email (obligatorio)
+                    <input type="email" name = "correo" required />
+                </label>
+                <label>
+                    Edad (obligatorio)
+                    <input type="number" name = "Edad" required min="1" max ="99" />
+                </label>
+                <label>
+                    telefono (obligatorio)
+                    <input type="tel" name = "telefono" required placeholder="+51 999 999 999 "required
+                    pattern="\+[0-9]{2} [0-9]{3} [0-9]{3}" />
+                </label>
+                <label >
+                    comidas (obligatortia)
+                    <select name="comidas" required>
+                        <option value="">Selecciona tu comida favorita</option>
+                        <option value="fr">Francesa</option>
+                        <option value="it">Italiana</option>
+                        <option value="jp">Japonesa</option>
+                        <option value="pe">Peruana</option>
+                        <option value="th">Thailandesa</option>
+                    </select>
+                </label>
+                <input type="submit" value="Guardar">
+            </form>
     </main>
 </body>
 </html>
