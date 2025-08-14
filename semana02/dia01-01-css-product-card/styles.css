@@ -26,7 +26,8 @@ main{
 
     width: 650px;
 
-    height: 400px;
+    min-height: 400px;
+    
 
     display: flex;
     border-radius: 14px;
@@ -100,5 +101,5 @@ gap: 28px;
 
 .content button
 {
-    
+
 }
