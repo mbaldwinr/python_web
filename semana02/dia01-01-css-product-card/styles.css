@@ -36,7 +36,7 @@ main{
 
 .photo{
 background-color: orange;
-width: 300px;
+width: 325px;
  background-image: url(./images/image-product-desktop.jpg);
  background-size: cover;
  background-repeat: no-repeat;
@@ -44,7 +44,7 @@ width: 300px;
 
 .content{
 background-color: hsl(0, 0%, 100%);
-width: 350px;
+width: 325px;
 padding: 28px;
 display: flex;
 flex-direction: column;
@@ -101,5 +101,17 @@ gap: 28px;
 
 .content button
 {
-
+border: 0;
+font-family: inherit; /*Toma los estulos de la fuente padre*/
+font-weight: 700;
+background-color:hsl(158, 36%, 37%);
+color: white;
+padding: 14px;
+border-radius: 7px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 7px;
+cursor: pointer;
 }
