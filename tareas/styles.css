@@ -1,0 +1,7 @@
+.photo{
+background-color: orange;
+width: 325px;
+ background-image: url(assets/images/illustration-sign-up-desktop.svg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
