@@ -1,52 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Contact form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="styles.css" >
 </head>
 <body>
 
-  Contact Us
-
-  First Name
-  This field is required
-
-  Last Name
-  This field is required
-
-  Email Address
-  Please enter a valid email address
-  This field is required
-
-  Query Type
-  General Enquiry
-  Support Request
-  Please select a query type
-
-  Message
-  This field is required
-
-  I consent to being contacted by the team
-  To submit this form, please consent to being contacted
-
-  Submit
-
-  Message Sent!
-  Thanks for completing the form. We'll be in touch soon!
+    <main class="contact-form">
+    
+    <h1>Contact Us</h1>
+    <form>
+<div class ="row">
+    <label >
+        First Name <span class="required">*</span>
+        <input type="text" name="first_name" />
+    </label>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<label > Last Name <span class="required">*</span>
+    <input type="text" name ="last_name">
+</label>
+</div> 
+  
+<label >Email Address <span class="required">*</span>
+    <input type="text" name="Email_address">
+</label>
+  
+
+<div>
+Query Type <span class="required">*</span>
+
+<div class="row">
+<label >General Enquiry  <span class="required">*</span>
+    <input type="radio" name="query_type">
+</label>
+  
+
+<label >Support Request <span class="required">*</span>
+    <input type="radio" name="query_type">
+</label>
+</div>  
+</div>
+ 
+  
+  
+  Please select a query type
+<label >Message <span class="required">*</span>
+    <textarea type="text" name = "message"> </textarea>
+</label>
+  
+  
+<label >
+    <input type="checkbox">
+    I consent to being contacted by the team
+</label>
+  
+<input type="submit" value="Submit">
+ 
+
+ 
+
+
+    </form>
+</main>
+   
+  
 </body>
 </html>
