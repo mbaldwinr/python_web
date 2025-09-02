@@ -2,8 +2,20 @@
  font-family: "Raleway", sans-serif;
 font-family: "Open Sans", sans-serif;
  */
+/* General */
+* { /* Selector universal */
+
+margin: 0; 
+box-sizing: border-box;
+
+}
+
+
+/* Header Section */
+
 
 body{
     background-color: bisque;
     font-family: "Open Sans", sans-serif;
+    font-size: 14px;
 }
