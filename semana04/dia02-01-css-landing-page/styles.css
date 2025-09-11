@@ -198,3 +198,75 @@ background: linear-gradient(90deg,hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 100%
     padding-bottom: 0.5rem;
 
 }
+
+.testimonials{
+
+    padding-top:8rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: min(100%-3rem,1240px);
+
+    margin:  0 auto;
+}
+
+@media (min-width: 1200px) {
+    .testimonials{
+        flex-direction: row;
+    }
+    
+}
+
+.testimonial{
+    
+    /*paffind: top  right botton left */
+    padding: 2rem 1.5rem 1.5rem 1.5em;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 0.5rem;
+    width: min(100%-3rem,480px);
+    position: relative;
+}
+
+/*:nth-child sirve para colocarlo en cualquier hijo*/
+
+.testimonial:first-child:before{
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    display: block;
+    width: 55px;
+    height: 45px;
+    /*opacity: 0.3;*/
+    background-image: url(images/bg-quotes.png);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.testimonial__text{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.testimonial__profile{
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+}
+
+.testimonial__avatar  {
+    border-radius: 50%;
+}
+
+
+.testimonial__users h4 {
+    font-weight: 700;
+}
+
+.testimonial__users h5 {
+    font-weight: 400;
+    
+}
