@@ -23,6 +23,7 @@ font-family: "Kumbh Sans", sans-serif;
  --neutral-light-grayish-blue: hsl(223, 64%, 98%);
  --neutral-white: hsl(0, 0%, 100%);
  --neutral-black: hsl(0, 0%, 0%);
+  --neutral-: hsl(0, 0%, 0%);
 }
 
  /**Generalres */
